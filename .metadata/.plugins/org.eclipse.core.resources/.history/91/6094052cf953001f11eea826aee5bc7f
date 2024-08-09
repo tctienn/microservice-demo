@@ -1,0 +1,5 @@
+package com.microserviceobject.bookservice.command.model;
+
+public class EmployeeRequestModel {
+
+}

@@ -1,0 +1,39 @@
+package com.employes.employeservice.command.aggregate;
+
+import org.axonframework.commandhandling.CommandHandler;
+import org.axonframework.modelling.command.AggregateIdentifier;
+import org.axonframework.modelling.command.AggregateLifecycle;
+import org.axonframework.spring.stereotype.Aggregate;
+import org.springframework.beans.BeanUtils;
+
+import com.employes.employeservice.command.command.CreateEmployeeCommand;
+import com.employes.employeservice.command.command.UpdateEmployeeCommand;
+import com.employes.employeservice.command.event.EmployeeCreateEvent;
+import com.employes.employeservice.command.event.EmployeeUpdateEvent;
+
+@Aggregate
+public class EmployeeAggregate {
+
+	@AggregateIdentifier
+	private String employeeId;
+	private String firstName;
+	private String lastName;
+	private String kin;
+	private String isDisciplined;
+	public EmployeeAggregate() {
+		super();
+	}
+	
+	@CommandHandler
+	public EmployeeAggregate(CreateEmployeeCommand command) {
+		EmployeeCreateEvent event = new EmployeeCreateEvent();
+		BeanUtils.copyProperties(command, event);
+		AggregateLifecycle.apply(event);
+	}
+	public void handle(UpdateEmployeeCommand command) {
+		 EmployeeUpdateEvent event = new EmployeeUpdateEvent();
+		BeanUtils.copyProperties(command, event);
+		AggregateLifecycle.apply(event);
+	}
+	
+}

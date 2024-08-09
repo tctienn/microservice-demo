@@ -1,0 +1,5 @@
+package com.employes.employeservice.command.aggregate;
+
+public class EmployeeAggregate {
+
+}

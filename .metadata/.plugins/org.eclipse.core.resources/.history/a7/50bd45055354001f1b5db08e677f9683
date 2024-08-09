@@ -1,0 +1,5 @@
+package com.employes.employeservice.query.model;
+
+public class EmployeeReponseModel {
+
+}

@@ -1,0 +1,5 @@
+package com.employes.employeservice.query.controller;
+
+public class EmployeeQueryController {
+
+}

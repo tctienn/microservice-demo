@@ -1,0 +1,5 @@
+package com.employes.employeservice.command.model;
+
+public class EmployeeRequestModel {
+
+}

@@ -1,0 +1,5 @@
+package com.employes.employeservice.command.command;
+
+public class CreateEmployeeCommand {
+
+}

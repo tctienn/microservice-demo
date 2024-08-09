@@ -1,0 +1,15 @@
+package com.employes.employeservice.command.aggregate;
+
+import org.axonframework.modelling.command.AggregateIdentifier;
+import org.axonframework.spring.stereotype.Aggregate;
+
+@Aggregate
+public class EmployeeAggregate {
+
+	@AggregateIdentifier
+	private String employeeId;
+	private String firstName;
+	private String lastName;
+	private String kin;
+	private String isDisciplined;
+}

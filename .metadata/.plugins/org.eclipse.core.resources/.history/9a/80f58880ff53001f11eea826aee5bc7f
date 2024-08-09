@@ -1,0 +1,5 @@
+package com.employes.employeservice.command.event;
+
+public class EmployeeEventHandler {
+
+}

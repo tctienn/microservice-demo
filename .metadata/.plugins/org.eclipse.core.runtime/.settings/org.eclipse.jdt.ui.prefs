@@ -1,0 +1,13 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.jdt.ui.javaPostfixProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.jdt.ui.javaChainProposalCategory\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.microserviceobject.bookservice.command.data.Book"><rhs name\="com.microserviceobject.bookservice.command.data.Book"/></lhs><lhs name\="com.microserviceobject.bookservice.command.command.UpdateBookCommand"><rhs name\="com.microserviceobject.bookservice.command.command.UpdateBookCommand"/></lhs><lhs name\="com.microserviceobject.bookservice.command.command.DeleteBookCommand"><rhs name\="com.microserviceobject.bookservice.command.command.DeleteBookCommand"/></lhs><lhs name\="com.microserviceobject.bookservice.command.event.BookUpdateEvent"><rhs name\="com.microserviceobject.bookservice.command.event.BookUpdateEvent"/></lhs><lhs name\="com.microserviceobject.bookservice.command.event.BookDeleteEvent"><rhs name\="com.microserviceobject.bookservice.command.event.BookDeleteEvent"/></lhs><lhs name\="com.microserviceobject.bookservice.query.model.BookResponseModel"><rhs name\="com.microserviceobject.bookservice.query.model.BookResponseModel"/></lhs><lhs name\="com.microserviceobject.bookservice.query.queries.GetAllBookQuery"><rhs name\="com.microserviceobject.bookservice.query.queries.GetAllBookQuery"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="com.employes.employeservice.command.event.EmployeeCreateEvent"><rhs name\="com.employes.employeservice.command.event.EmployeeCreateEvent"/></lhs><lhs name\="com.employes.employeservice.command.data.Employee"><rhs name\="com.employes.employeservice.command.data.Employee"/></lhs><lhs name\="com.employes.employeservice.query.model.EmployeeReponseModel"><rhs name\="com.employes.employeservice.query.model.EmployeeReponseModel"/></lhs></history>
+content_assist_number_of_computers=21
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=1
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

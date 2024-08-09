@@ -1,0 +1,5 @@
+package com.employes.employeservice.command.data;
+
+public class Employee {
+
+}

@@ -1,0 +1,12 @@
+package com.employes.employeservice.command.command;
+
+import org.axonframework.modelling.command.TargetAggregateIdentifier;
+
+public class DeleteEmployeeCommand {
+
+	@TargetAggregateIdentifier
+	private String employeeId;
+
+	
+	
+}
